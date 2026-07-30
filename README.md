@@ -185,9 +185,8 @@ DELETE /api/v1/categories/{id}
 
 | Canal | Disparador |
 |-------|-----------|
-| **Email** (Postfix en VPS) | Registro de cuenta, recuperación de contraseña |
-| **SMS** (Twilio) | Alerta al alcanzar el 80% del presupuesto mensual |
-| **WhatsApp** (Twilio) | Envío manual de recomendaciones de ahorro |
+| **Email** (GMAIL en VPS) | Registro de cuenta, recuperación de contraseña |
+| **WhatsApp** (META BUSINNES) | Envío manual de recomendaciones de ahorro |
 
 ---
 
