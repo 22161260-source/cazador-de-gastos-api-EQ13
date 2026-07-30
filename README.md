@@ -227,7 +227,7 @@ npm run build
 # Copiar dist/ a /var/www/html/
 
 # SSL
-certbot --nginx -d TU_DOMINIO_VPS.COM
+certbot --nginx -d TU VPS.COM
 ```
 
 ---
