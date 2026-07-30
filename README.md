@@ -1,10 +1,6 @@
 # 🎯 Cazador de Gastos
 
-> Aplicación web full-stack para detección y gestión de gastos innecesarios
-
-[![Laravel](https://img.shields.io/badge/Backend-Laravel%2013-red)](https://laravel.com)
-[![React](https://img.shields.io/badge/Frontend-React%2018-blue)](https://react.dev)
-[![MySQL](https://img.shields.io/badge/DB-MySQL%208-orange)](https://mysql.com)
+> Aplicación web para detección y gestión de gastos innecesarios
 
 ---
 
@@ -34,20 +30,7 @@
 
 ## 🗄️ Diagrama Entidad-Relación
 
-```
-roles (1) ──────────< users (N)
-users (1) ──────────< expenses (N)
-users (1) ──────────< incomes (N)
-users (1) ──────────< budgets (N)
-users (1) ──────────< alerts (N)
-users (1) ──────────< recommendations (N)
-categories (1) ─────< expenses (N)
-categories (1) ─────< incomes (N)
-categories (1) ─────< budgets (N)
-expenses (N) ──────>< tags (N) [via expense_tags]
-```
 
-**Relación N:M:** `expenses` ↔ `tags` mediante la tabla `expense_tags`
 
 ### Tablas de la base de datos
 
@@ -115,10 +98,10 @@ npm run dev
 
 | Recurso | URL |
 |---------|-----|
-| **Proyecto desplegado** | https://TU_DOMINIO_VPS.COM |
-| **URL base de la API** | https://TU_DOMINIO_VPS.COM/api/v1 |
+| **Proyecto desplegado** | http://2.24.86.101:83/cazador-gastos/login |
+| **URL base de la API** | http://2.24.86.101:82/api/v1/expenses |
 | **GitHub Projects** | https://github.com/users/22161260-source/projects/2 |
-| **Figma Prototipo** | [LINK AL FIGMA - Pendiente de agregar] |
+| **Figma Prototipo** |  |
 
 ---
 
