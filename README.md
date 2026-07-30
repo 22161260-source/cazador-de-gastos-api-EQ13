@@ -75,7 +75,7 @@
 cd backend
 composer install
 cp .env.example .env
-# Editar .env con tus credenciales de MySQL y Twilio
+# Editar .env con tus credenciales de MySQL y META
 php artisan key:generate
 php artisan migrate --seed
 php artisan storage:link
@@ -88,7 +88,7 @@ php artisan serve
 cd frontend
 npm install
 cp .env.example .env
-# Editar VITE_API_URL con la URL de tu backend
+# Editar con la URL de tu backend
 npm run dev
 ```
 
